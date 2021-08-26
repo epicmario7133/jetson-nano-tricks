@@ -16,6 +16,19 @@ make -j4
 sudo make install
 ```
 # How install numba (essential for many projects)
+Fast way:
+```
+git clone https://github.com/wjakob/tbb.git
+cd tbb/build
+cmake ..
+make -j
+sudo make install
+sudo apt install llvm-10
+export LLVM_CONFIG=/usr/bin/llvm-config-10
+pip3 install llvmlite
+pip3 install numba
+```
+
 For this it takes 30 hours for the nano jetson 2gb
 ```
 wget https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.1/llvm-10.0.1.src.tar.xz
