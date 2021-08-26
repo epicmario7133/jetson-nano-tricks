@@ -75,6 +75,7 @@ sudo python3 setup.py install
 ```
 and at the end
 ```
+python3 -m pip install --upgrade pip
 sudo pip3 install face_recognition
 ```
 
