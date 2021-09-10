@@ -26,6 +26,7 @@ sudo make install
 sudo apt install llvm-10
 export LLVM_CONFIG=/usr/bin/llvm-config-10
 pip3 install llvmlite
+pip3 install Cython
 pip3 install numba
 ```
 
